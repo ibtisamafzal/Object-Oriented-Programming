@@ -1,0 +1,12 @@
+package task_8;
+
+public class Reverse_Array {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int []arr= {2,4,6,8,10,12};
+		for(int i=o,i<=arr.length-1,i++)
+		System.out.print(+[]arr);
+	}
+
+}

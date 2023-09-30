@@ -1,0 +1,14 @@
+package task_6;
+import java.util.Scanner;
+public class Time_Converter {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	Scanner scanner =new Scanner (System.in);
+	System.out.print("Enter seconds to convert: ");
+	int seconds = scanner.nextInt();
+	
+	system.out.println(+seconds);
+	}
+
+}

@@ -1,0 +1,12 @@
+package task_7;
+import java.util.Scanner;
+public class Recursion {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int n;
+		Scanner scan = new Scanner (System.in);
+	}
+
+}

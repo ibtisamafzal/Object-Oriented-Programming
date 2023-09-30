@@ -1,0 +1,10 @@
+Copy Bin Folder:
+program files > java > jdk-20 > bin
+
+Properties > Advanced System Settings > enviroment variables > path > edit > a
+
+Intellij
+eclipse
+
+To check if java is installed or not?
+cmd > java -version
