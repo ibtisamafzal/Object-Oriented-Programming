@@ -1,0 +1,105 @@
+/*
+class Account {
+    protected 
+    int accountNumber;
+    String accountHolderName;
+    double balance;
+    
+    Scanner input = new Scanner(System.in);
+    
+    void getAccountInfo() {
+    	System.out.println("Enter Account Number: ");
+    	accountNumber = input.nextInt();
+    	input.nextLine();
+    	System.out.println("Enter Account Holder Name: ");
+    	accountHolderName = input.nextLine();
+    	System.out.println("Balance: ");
+		balance = input.nextInt();
+    }
+    
+    Scanner depo = new Scanner(System.in);
+    
+    void deposit() {
+    	System.out.println("Enter Balance to Deposit: ");
+    	double amount = depo.nextDouble();
+        balance += amount;
+    }
+
+    void displayAccountInfo() {
+    	System.out.println("This is Base Account Information");
+        System.out.println("Account Number: " + accountNumber);
+        System.out.println("Account Holder: " + accountHolderName);
+        System.out.println("Balance: " + balance);
+    }
+}
+
+class SavingsAccount extends Account { 
+    double interestRate;
+    
+    Scanner interest = new Scanner(System.in);
+    
+    double getInterestRate(){
+    	System.out.println("Enter Interest Rate: ");
+    	interestRate = interest.nextDouble();
+    	return interestRate;
+    }
+
+    void addInterest() {
+        double interestAmount = balance * (interestRate / 100);
+        balance += interestAmount;
+    }
+
+    public void displaySavingInfo() {
+        System.out.println("Savings Account Information:");
+        System.out.println("Account Number: " + accountNumber);
+        System.out.println("Account Holder Name: " + accountHolderName);
+        System.out.println("Balance: $" + balance);
+        System.out.println("Balance after " +interestRate + "% Interest Rate: " + balance);
+    }
+}
+
+class CurrentAccount extends Account {
+    double overdraftlimit;
+   
+    Scanner withdrawAmount = new Scanner(System.in);
+    
+    double withdraw() {
+    	System.out.println("Enter Amount to Withdraw: ");
+    	double withdraw = withdrawAmount.nextDouble();
+   
+        if (balance - withdraw >= -overdraftlimit) {
+            balance -= withdraw;
+        } 
+        else {
+            System.out.println("Withdrawal Limit Exceed");
+        }
+        return balance;
+    }
+
+    void displayCurrentInfo() {
+        System.out.println("Current Account Information:");
+        System.out.println("Account Number: " + accountNumber);
+        System.out.println("Account Holder: " + accountHolderName);
+        System.out.println("Balance: $" + balance);
+    }
+}
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		Account acc = new Account();
+		acc.getAccountInfo();
+		
+		CurrentAccount crr = new CurrentAccount();
+		crr.deposit();
+		crr.displayCurrentInfo();
+		crr.withdraw();
+	
+		SavingsAccount svv = new SavingsAccount();
+		svv.deposit();
+		svv.getInterestRate();
+		svv.addInterest();
+		svv.displaySavingInfo();
+	}
+}
+*/
