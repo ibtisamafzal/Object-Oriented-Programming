@@ -1,7 +1,7 @@
 package Zoo;
 
 public class Animal {
-	protected
+	public
 	String name;
 	int age;
 	
@@ -11,11 +11,11 @@ public class Animal {
 	
 class Dog extends Animal
 {
-	void getDogInfo() 
-	{
-		name="Jack";
-		age=1;
+	public Dog(String name,int age){
+		this.name=name;
+		this.age=age;
 	}
+	
 	void display() 
 	{
 		System.out.println("Name of Dog is:" + name);
@@ -24,10 +24,13 @@ class Dog extends Animal
 }
 	
 class Cat extends Animal {
-		void getCatInfo() {
-			name="Cocoa";
-			age= 2;
+		
+		public Cat(String name, int age){
+			
+			this.name=name;
+			this.age=age;
 		}
+		
 		void display() {
 			System.out.println("Name of Cat is:" + name);
 			System.out.println("Age of Cat is:" + age);
@@ -40,11 +43,6 @@ class Cat extends Animal {
 		Animal a1 = new Animal ();
 		a1.display();
 		
-		Dog d1 = new Dog ();
-		d1.display();
-		
-		Cat c1 = new Cat ();
-		c1.display();
 	}
 
 }

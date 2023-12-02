@@ -2,15 +2,17 @@ package lecture8_package;
 
 class StaticTestClass{
 	
+	public static void function1() {
+	System.out.println("Function 1");
 }
-
-
+	
+};
 
 public class TestClass {
 
 	public static void main(String[] args) {
 		StaticTestClass.function1();
-		StaticTestClass.function2();
-	}
-
+		}
 }
+
+

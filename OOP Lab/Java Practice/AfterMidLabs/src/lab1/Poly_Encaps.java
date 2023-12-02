@@ -27,7 +27,9 @@ class Vehicle {
 	}
 }
 
+
 class Car extends Vehicle{
+	
 	super (model_name);
 	Vehicle reg_number;
 	Vehicle model_name;
@@ -47,17 +49,6 @@ class Car extends Vehicle{
 		return color;
 	}
 }
-
-class Truck extends Vehicle{
-	Vehicle no_of_tyres;
-	int import_year;
-}
-
-class Bus extends Vehicle{
-	Vehicle no_of_tyres;
-	int number_of_seats;
-}
-
 
 public class Poly_Encaps {
 	public static void main(String[] args) {
