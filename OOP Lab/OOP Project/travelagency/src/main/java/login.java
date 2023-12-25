@@ -151,7 +151,7 @@ public class login extends javax.swing.JFrame {
     }//GEN-LAST:event_t2ActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        // TODO add your handling code here:
+        
         String a=t1.getText();
         String b=t2.getText();
         if(a.equalsIgnoreCase(uname)&&b.equalsIgnoreCase(passw))
