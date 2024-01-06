@@ -1,0 +1,49 @@
+OOP Final Syllabus.
+
+- Before Mids:
+
+OOP vs Procedural Programming?
+Class vs Object?
+Data Members?
+Member  Functions?
+Access specifiers (Public vs Private vs Protected)?
+Define Constructor?
+Purpose of Constructor?
+How to write a Constructor?
+How to create an object?
+Role of "new" keyword?
+How to access properties and functions of an object?
+How to create an Array of objects?
+Object as function parameters.
+Object as data Members.
+Inheritance, Types of Inheritance
+Polymorphism
+Function overloading vs Function overriding
+"This" vs "Super" keyword.
+Static vs Non-Static data Members and functions.
+Abstract class or abstraction
+Abstract vs Concrete Class
+Abstract class vs interface
+The difference between "is a" and "has a" relationship?
+Difference between overriding and overloading?
+
+- After Mids:
+
+Questions related to GUI (Queries/ Try Catch Block, etc.).
+Define Database.
+Relational Database.
+Define Redundancy.
+Difference b/w Record and Attributes.
+Difference b/w Primary and Foreign key.
+Define Table/ Relation.
+What is RDBMS +Examples.
+What is SQL?
+Queries (Insert, Update, Select, Delete)
+Normalization Process?
+
+File Handling
+Exception Handling
+Event Handling
+
+Inheritance
+Interface
