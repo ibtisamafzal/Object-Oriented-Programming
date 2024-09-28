@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 28, 2023 at 02:32 PM
+-- Generation Time: Feb 15, 2024 at 05:11 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -21,6 +21,30 @@ SET time_zone = "+00:00";
 -- Database: `ticketbookingsystem`
 --
 
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `airplane`
+--
+
+CREATE TABLE `airplane` (
+  `AName` varchar(200) NOT NULL,
+  `ADeparture` varchar(200) NOT NULL,
+  `AArival` varchar(200) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `bus`
+--
+
+CREATE TABLE `bus` (
+  `BName` varchar(200) NOT NULL,
+  `BDeparture` varchar(200) NOT NULL,
+  `BArival` varchar(200) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
 --
 -- Dumping data for table `bus`
 --
@@ -28,6 +52,18 @@ SET time_zone = "+00:00";
 INSERT INTO `bus` (`BName`, `BDeparture`, `BArival`) VALUES
 ('Daewoo', 'Lahore', 'Okara'),
 ('Enter Bus Name', 'Enter Departure', 'Enter Arival');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `train`
+--
+
+CREATE TABLE `train` (
+  `Tname` varchar(200) NOT NULL,
+  `TDeparture` varchar(200) NOT NULL,
+  `TArival` varchar(200) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `train`
@@ -37,6 +73,18 @@ INSERT INTO `train` (`Tname`, `TDeparture`, `TArival`) VALUES
 ('MusaPak', 'Karachi', 'Sahiwal'),
 ('Musapak', 'Okara', 'Multan'),
 ('', '', '');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `user`
+--
+
+CREATE TABLE `user` (
+  `Name` varchar(200) NOT NULL,
+  `Username` varchar(200) NOT NULL,
+  `Password` int(4) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `user`
